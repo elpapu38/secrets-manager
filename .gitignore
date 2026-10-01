@@ -1,0 +1,27 @@
+# Dependencias y compilado
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Bóvedas, backups y exportaciones (NUNCA subir esto)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.zip
+*.bak
+backups/
+sm-export-*.json
+export*.json
+
+# Entorno y logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
